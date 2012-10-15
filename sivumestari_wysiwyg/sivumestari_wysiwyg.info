@@ -1,0 +1,32 @@
+name = Sivumestari WYSIWYG
+description = Integrates a WYSIWYG into Drupal.
+core = 7.x
+package = Sivumestari
+php = 5.2.4
+project = sivumestari_wysiwyg
+dependencies[] = ctools
+dependencies[] = features
+dependencies[] = image_resize_filter
+dependencies[] = linkit
+dependencies[] = media
+dependencies[] = page_manager
+dependencies[] = strongarm
+dependencies[] = wysiwyg
+dependencies[] = wysiwyg_filter
+features[ctools][] = linkit:linkit_profiles:1
+features[ctools][] = strongarm:strongarm:1
+features[features_api][] = api:1
+features[filter][] = sivumestari_html_text
+features[filter][] = sivumestari_wysiwyg_text
+features[linkit_profiles][] = content_editors
+features[variable][] = media__wysiwyg_browser_plugins
+features[wysiwyg][] = sivumestari_html_text
+features[wysiwyg][] = sivumestari_wysiwyg_text
+stylesheets[all][] = sivumestari-wysiwyg.css
+
+; Information added by drupal.org packaging script on 2012-09-24
+version = "7.x-1.0-beta6"
+core = "7.x"
+project = "sivumestari_wysiwyg"
+datestamp = "1348523094"
+
