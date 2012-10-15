@@ -1,6 +1,6 @@
 Sivumestari WYSIWYG
 ================
-Integrates a WYSIWYG into Sivumestari
+Integrates a WYSIWYG into sivumestari
 
 Key Features
 * The best TinyMCE WYSIWYG in Drupal
