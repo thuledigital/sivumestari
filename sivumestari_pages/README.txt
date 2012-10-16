@@ -1,4 +1,4 @@
--Sivumestari Pages
+Sivumestari Pages
 ==============
 Helps create and manage pages that can be Panelized!
 
