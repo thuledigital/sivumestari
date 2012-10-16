@@ -20,6 +20,55 @@ function sivumestari_pages_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'comment_anonymous_sivumestari_page';
+  $strongarm->value = 0;
+  $export['comment_anonymous_sivumestari_page'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'comment_default_mode_sivumestari_page';
+  $strongarm->value = 1;
+  $export['comment_default_mode_sivumestari_page'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'comment_default_per_page_sivumestari_page';
+  $strongarm->value = '50';
+  $export['comment_default_per_page_sivumestari_page'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'comment_form_location_sivumestari_page';
+  $strongarm->value = 1;
+  $export['comment_form_location_sivumestari_page'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'comment_preview_sivumestari_page';
+  $strongarm->value = '1';
+  $export['comment_preview_sivumestari_page'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'comment_sivumestari_page';
+  $strongarm->value = '1';
+  $export['comment_sivumestari_page'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'comment_subject_field_sivumestari_page';
+  $strongarm->value = 1;
+  $export['comment_subject_field_sivumestari_page'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'field_bundle_settings_node__sivumestari_page';
   $strongarm->value = array(
     'view_modes' => array(
@@ -81,7 +130,6 @@ function sivumestari_pages_strongarm() {
   $strongarm->name = 'node_options_sivumestari_page';
   $strongarm->value = array(
     0 => 'status',
-    1 => 'promote',
   );
   $export['node_options_sivumestari_page'] = $strongarm;
 
@@ -112,17 +160,17 @@ function sivumestari_pages_strongarm() {
         'choice' => 0,
       ),
       'default' => array(
-        'status' => 1,
+        'status' => 0,
         'default' => 1,
         'choice' => 0,
       ),
       'teaser' => array(
-        'status' => 1,
+        'status' => 0,
         'default' => 1,
         'choice' => 0,
       ),
       'featured' => array(
-        'status' => 1,
+        'status' => 0,
         'default' => 1,
         'choice' => 0,
       ),
@@ -389,7 +437,7 @@ function sivumestari_pages_strongarm() {
     'entity_field_extra-taxonomy_term:description' => 'entity_field_extra-taxonomy_term:description',
     'entity_field_extra-user:summary' => 'entity_field_extra-user:summary',
     'custom-custom' => 0,
-    'block-apps-manage_apps__sivumestari' => 0,
+    'block-apps-manage_apps__panopoly' => 0,
     'block-apps-manage_apps__sivumestari_apps' => 0,
     'block-facetapi-1Cpx6naJU4Y3YvKVc0vcLK7Yo0ahaN0l' => 0,
     'block-facetapi-fA1pg0Ubd1zgx1mvzHkFUGaNoMb4Gs0s' => 0,

@@ -32,7 +32,7 @@ function sivumestari_pages_node_info() {
       'base' => 'node_content',
       'description' => t('An important page to display to users on your site.'),
       'has_title' => '1',
-      'title_label' => t('Title'),
+      'title_label' => t('Otsikko'),
       'help' => '',
     ),
   );
