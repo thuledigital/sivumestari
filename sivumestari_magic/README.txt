@@ -1,4 +1,4 @@
-Sivumestari Magic
+---Sivumestari Magic
 ==============
 Weaves together the chaos magic. Very cool stuff.
 
