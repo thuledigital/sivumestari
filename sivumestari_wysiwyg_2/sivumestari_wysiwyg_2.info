@@ -1,0 +1,9 @@
+name = Sivumestari WYSIWYG 2
+core = 7.x
+package = Sivumestari
+php = 5.2.4
+version = 7.x-0.1-beta1
+project = sivumestari_wysiwyg_2
+dependencies[] = ckeditor
+features[ckeditor_profile][] = Full
+features[features_api][] = api:1
