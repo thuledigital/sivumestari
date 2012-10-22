@@ -31,17 +31,17 @@ function sivumestari_theme_theme_registry_alter(&$theme_registry) {
 /**
 * Implements hook_entity_info_alter().
 */
-function sivumestari_theme_entity_info_alter(&$entity_info) {
+//function sivumestari_theme_entity_info_alter(&$entity_info) {
 
   // Add featured view mode to nodes
-  $entity_info['node']['view modes']['featured'] = array(
-    'label' => t('Featured'),
-    'custom settings' => TRUE,
-  );
+  //$entity_info['node']['view modes']['featured'] = array(
+    //'label' => t('Featured'),
+    //'custom settings' => TRUE,
+  //);
 
   // Add featured view mode to users
-  $entity_info['user']['view modes']['featured'] = array(
-    'label' => t('Featured'),
-    'custom settings' => TRUE,
-  );
-}
+  //$entity_info['user']['view modes']['featured'] = array(
+    //'label' => t('Featured'),
+    //'custom settings' => TRUE,
+  //);
+//}
